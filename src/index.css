@@ -1,0 +1,16 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "leaflet/dist/leaflet.css";
+
+/* Add Leaflet's CSS for maps */
+@import "leaflet/dist/leaflet.css";
+
+body {
+  background-color: white; 
+  /* A light, clean background for the dashboard */
+  /* A light, clean background for the dashboard */
+  font-family: sans-serif;
+}
+
