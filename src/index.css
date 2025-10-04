@@ -1,16 +1,11 @@
 /* src/index.css */
+
+@import 'leaflet/dist/leaflet.css'; /* ✅ This line MUST be here */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "leaflet/dist/leaflet.css";
 
-/* Add Leaflet's CSS for maps */
-@import "leaflet/dist/leaflet.css";
-
-body {
-  background-color: white; 
-  /* A light, clean background for the dashboard */
-  /* A light, clean background for the dashboard */
-  font-family: sans-serif;
-}
-
+/* ... rest of the file ... */
